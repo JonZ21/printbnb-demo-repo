@@ -1,0 +1,262 @@
+.hideText {
+  display: none;
+}
+
+.hero {
+    height: 500px; /* Set a fixed height for the parallax container */
+  }
+  
+  .hero-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    color: black;
+    text-align: center;
+    z-index: 1; /* Ensure the content appears above the parallax background */
+  }
+  .hero-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    border-radius: 100px;
+    display: flex;
+    min-width: 310px;
+  }
+
+  .hero-content h1 {
+    font-size: 90px;
+    position: relative;
+    z-index: 3;
+  }
+  .heroPrinter {
+    height: 0;
+  }
+  .heroPrinter img {
+    height: 500px;
+    transform: translate(180%, -50%);
+    position: absolute;
+  }
+
+  .PrintbnbContainer {
+    display: flex;
+    color: black;
+    background-color: transparent;
+    padding-top: 160px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .PrintbnbContainer p {
+    height: 2000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 50%;
+    text-align: left;
+    font-size:var(--font-size);
+    max-width: 800px;
+    min-width: 298px;
+    /* margin-left: 5%;
+    margin-right: auto; */ 
+  }
+
+  @media screen and (max-width: 1080px) {
+    .PrintbnbContainer {
+      padding-top: 0px;
+    }
+  }
+
+  .MakisContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 160px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: black;
+  }
+  
+  .MakisText {
+    height: 2000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    text-align: left;
+    font-size:var(--font-size);
+    max-width: 400px;
+    min-width: 298px;
+    /* margin-left: 5%;
+    margin-right: auto; */
+    padding-top: 32px;  
+  
+  }
+  
+  .MakisImg {
+    display: flex;
+    /* margin-left: auto;
+    margin-right: 5%; */
+    width: 27%;
+    height: 25%;
+    justify-content: right;
+    min-width: 310px;
+    border-radius: 0.75rem; 
+  }
+  
+  @media screen and (min-width: 1080px) {
+    .MakisContainer{
+    flex-direction: row;
+    }
+    .MakisText{
+      margin-left: 10%;
+    }
+    .MakisImg{
+      margin-right: 10%;
+    }
+  }
+  
+  
+  .JonContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 160px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: black;
+  }
+  
+  .JonText1 {
+    height: 2000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    text-align: left;
+    font-size:var(--font-size);
+    max-width: 400px;
+    min-width: 298px;
+    /* margin-left: 5%;
+    margin-right: auto; */
+    padding-top: 32px;  
+  
+  }
+  
+  @media screen and (min-width: 1080px) {
+    .JonContainer{
+    flex-direction: row;
+    }
+    .JonText{
+      margin-right: 10%;
+    }
+    .JonImg{
+      margin-left: 10%;
+    }
+  }
+
+   .JonText2 {
+    height: 2000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    text-align: left;
+    font-size:var(--font-size);
+    max-width: 400px;
+    min-width: 298px;
+    /* margin-left: 5%;
+    margin-right: auto; */
+    padding-top: 32px;  
+  
+  }
+  
+  .JonImg {
+    display: flex;
+    /* margin-left: auto;
+    margin-right: 5%; */
+    width: 27%;
+    height: 25%;
+    justify-content: left;
+    min-width: 310px;
+    border-radius: 0.75rem; 
+  }
+  
+  @media screen and (min-width: 1080px) {
+    .JonContainer{
+    flex-direction: row;
+    }
+    .JonText1{
+      margin-right: 10%;
+    } 
+    .JonText2{
+      display: none;
+    }
+    .JonImg{
+      margin-left: 10%;
+    }
+  }
+
+  @media screen and (max-width: 1080px) {
+    .JonText1 {
+      display: none;
+    }
+  }
+
+  .SamContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 160px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: black;
+    margin-bottom: 10rem;
+  }
+
+  .SamText {
+    height: 2000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    text-align: left;
+    font-size:var(--font-size);
+    max-width: 400px;
+    min-width: 298px;
+    /* margin-left: 5%;
+    margin-right: auto; */
+    padding-top: 32px;  
+  }
+  
+  .SamImg {
+    display: flex;
+    /* margin-left: auto;
+    margin-right: 5%; */
+    width: 27%;
+    height: 25%;
+    justify-content: left;
+    min-width: 310px;
+    border-radius: 0.75rem; 
+  }
+  
+  @media screen and (min-width: 1080px) {
+    .SamContainer{
+    flex-direction: row;
+    }
+    .SamText{
+      margin-left: 10%;
+    }
+    .SamImg{
+      margin-right: 10%;
+    }
+  }
